@@ -19,9 +19,9 @@
                 <th>Nama</th>
                 <th>Alamat</th>
                 <th>TGL_Lahir</th>
-				<th>Nomor_Telepon</th>
-				<th>Nama_Paket</th>
-				<th>Durasi_Paket</th>
+		<th>Nomor_Telepon</th>
+		<th>Nama_Paket</th>
+		<th>Durasi_Paket</th>
             </tr>
         </thead>
         <tbody>
@@ -36,9 +36,9 @@
                     <td><?php echo $row['Nama'] ?></td>
                     <td><?php echo $row['Alamat'] ?></td>
                     <td><?php echo $row['TGL_Lahir'] ?></td>
-					<td><?php echo $row['Nomor_Telepon'] ?></td>
-					<td><?php echo $row['Nama_Paket'] ?></td>
-					<td><?php echo $row['Durasi_Paket'] ?></td>
+		     <td><?php echo $row['Nomor_Telepon'] ?></td>
+		     <td><?php echo $row['Nama_Paket'] ?></td>
+		     <td><?php echo $row['Durasi_Paket'] ?></td>
                 </tr>
                 <?php
             }
